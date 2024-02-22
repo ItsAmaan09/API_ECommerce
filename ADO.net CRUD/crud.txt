@@ -1,0 +1,119 @@
+using System;
+using System.Collections.Generic;
+using System.Data.SqlClient;
+
+public class StudentRepository
+{
+    private readonly string _connectionString;
+
+  //  public StudentRepository(string connectionString)
+  //  {
+  //      _connectionString = connectionString;
+  //  }
+
+public StudentRepository()
+    {
+        IConfiguration configuration = ConfigurationHelper.GetConfiguration();
+        _connectionString = configuration.GetConnectionString("DefaultConnection");
+    }
+
+    public List<Student> GetStudents()
+    {
+        List<Student> students = new List<Student>();
+
+        using (var connection = new SqlConnection(_connectionString))
+        {
+            connection.Open();
+
+            string query = "SELECT Id, Name, Age FROM Students";
+
+            using (var command = new SqlCommand(query, connection))
+            {
+                using (var reader = command.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        var student = new Student
+                        {
+                            Id = Convert.ToInt32(reader["Id"]),
+                            Name = reader["Name"].ToString(),
+                            Age = Convert.ToInt32(reader["Age"])
+                        };
+                        students.Add(student);
+                    }
+                }
+            }
+        }
+
+        return students;
+    }
+
+ public bool AddStudent(Student student)
+    {
+        bool success = false;
+
+        using (var connection = new SqlConnection(_connectionString))
+        {
+            connection.Open();
+
+            string query = "INSERT INTO Students (Name, Age) VALUES (@Name, @Age)";
+
+            using (var command = new SqlCommand(query, connection))
+            {
+                command.Parameters.AddWithValue("@Name", student.Name);
+                command.Parameters.AddWithValue("@Age", student.Age);
+
+                int rowsAffected = command.ExecuteNonQuery();
+                success = rowsAffected > 0;
+            }
+        }
+
+        return success;
+    }
+
+    public bool UpdateStudent(Student student)
+    {
+        bool success = false;
+
+        using (var connection = new SqlConnection(_connectionString))
+        {
+            connection.Open();
+
+            string query = "UPDATE Students SET Name = @Name, Age = @Age WHERE Id = @Id";
+
+            using (var command = new SqlCommand(query, connection))
+            {
+                command.Parameters.AddWithValue("@Name", student.Name);
+                command.Parameters.AddWithValue("@Age", student.Age);
+                command.Parameters.AddWithValue("@Id", student.Id);
+
+                int rowsAffected = command.ExecuteNonQuery();
+                success = rowsAffected > 0;
+            }
+        }
+
+        return success;
+    }
+
+    public bool DeleteStudent(int studentId)
+    {
+        bool success = false;
+
+        using (var connection = new SqlConnection(_connectionString))
+        {
+            connection.Open();
+
+            string query = "DELETE FROM Students WHERE Id = @Id";
+
+            using (var command = new SqlCommand(query, connection))
+            {
+                command.Parameters.AddWithValue("@Id", studentId);
+
+                int rowsAffected = command.ExecuteNonQuery();
+                success = rowsAffected > 0;
+            }
+        }
+
+        return success;
+    }
+}
