@@ -1,0 +1,16 @@
+E:\dotnet projects\WebApi Projects\ECommerce\API_ECommerce\SQLRepository\bin\Debug\net8.0\SQLRepository.deps.json
+E:\dotnet projects\WebApi Projects\ECommerce\API_ECommerce\SQLRepository\bin\Debug\net8.0\SQLRepository.dll
+E:\dotnet projects\WebApi Projects\ECommerce\API_ECommerce\SQLRepository\bin\Debug\net8.0\SQLRepository.pdb
+E:\dotnet projects\WebApi Projects\ECommerce\API_ECommerce\SQLRepository\bin\Debug\net8.0\Models.dll
+E:\dotnet projects\WebApi Projects\ECommerce\API_ECommerce\SQLRepository\bin\Debug\net8.0\Models.pdb
+E:\dotnet projects\WebApi Projects\ECommerce\API_ECommerce\SQLRepository\obj\Debug\net8.0\SQLRepository.csproj.AssemblyReference.cache
+E:\dotnet projects\WebApi Projects\ECommerce\API_ECommerce\SQLRepository\obj\Debug\net8.0\SQLRepository.GeneratedMSBuildEditorConfig.editorconfig
+E:\dotnet projects\WebApi Projects\ECommerce\API_ECommerce\SQLRepository\obj\Debug\net8.0\SQLRepository.AssemblyInfoInputs.cache
+E:\dotnet projects\WebApi Projects\ECommerce\API_ECommerce\SQLRepository\obj\Debug\net8.0\SQLRepository.AssemblyInfo.cs
+E:\dotnet projects\WebApi Projects\ECommerce\API_ECommerce\SQLRepository\obj\Debug\net8.0\SQLRepository.csproj.CoreCompileInputs.cache
+E:\dotnet projects\WebApi Projects\ECommerce\API_ECommerce\SQLRepository\obj\Debug\net8.0\SQLRepository.sourcelink.json
+E:\dotnet projects\WebApi Projects\ECommerce\API_ECommerce\SQLRepository\obj\Debug\net8.0\SQLRepository.csproj.CopyComplete
+E:\dotnet projects\WebApi Projects\ECommerce\API_ECommerce\SQLRepository\obj\Debug\net8.0\SQLRepository.dll
+E:\dotnet projects\WebApi Projects\ECommerce\API_ECommerce\SQLRepository\obj\Debug\net8.0\refint\SQLRepository.dll
+E:\dotnet projects\WebApi Projects\ECommerce\API_ECommerce\SQLRepository\obj\Debug\net8.0\SQLRepository.pdb
+E:\dotnet projects\WebApi Projects\ECommerce\API_ECommerce\SQLRepository\obj\Debug\net8.0\ref\SQLRepository.dll

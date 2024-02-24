@@ -9,3 +9,7 @@ public static class ConfigurationHelper
             .Build();
     }
 }
+
+
+
+//"DefaultConnection": "Data Source=.\\SQLEXPRESS;Initial Catalog=MA;User ID=sa;Password=admin@123;TrustServerCertificate=True"
