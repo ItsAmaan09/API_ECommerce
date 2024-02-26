@@ -27,4 +27,17 @@ public class UserManager
 
         return users;
     }
+
+    public bool AddUser(User user)
+    {
+        bool success = false;
+        if(user.IsValid())
+        {
+            throw new Exception("User is not valid");
+        }
+
+        success = this.sqlUserRepository.AddUser(user);
+
+        return success;
+    }
 }

@@ -30,7 +30,7 @@ public class SQLUserRepository
                         var user = new User
                         {
                             Id = (int)reader["Id"],
-                            Username = (string)reader["UserName"],
+                            Username = (string)reader["Username"],
                             Email = (string)reader["Email"],
                             PasswordHash = (string)reader["PasswordHash"]
                         };
@@ -40,5 +40,35 @@ public class SQLUserRepository
             }
         }
         return users;
+    }
+    public bool AddUser(User user)
+    {
+        string hashedPassword = HashPassword(user.PasswordHash);
+
+        bool success = false;
+        using (SqlConnection connection = new SqlConnection(this.connectionString))
+        {
+            connection.Open();
+
+            string query = "INSERT INTO mstUser (Username, Email, PasswordHash) VALUES (@Username, @Email, @PasswordHash)";
+
+            using (var command = new SqlCommand(query, connection))
+            {
+                command.Parameters.AddWithValue("@Username", user.Username);
+                command.Parameters.AddWithValue("@Email", user.Email);
+                command.Parameters.AddWithValue("@Password", hashedPassword);
+
+                int rowsAffected = command.ExecuteNonQuery();
+                success = rowsAffected > 0;
+            }
+        }
+
+        return success;
+    }
+
+    private string HashPassword(string password)
+    {
+        // Generate a salt and hash the password using bcrypt
+        return BCrypt.Net.BCrypt.HashPassword(password, BCrypt.Net.BCrypt.GenerateSalt());
     }
 }

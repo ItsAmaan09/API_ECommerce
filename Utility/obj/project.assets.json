@@ -112,11 +112,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Mohammed Amaan's\\dotnet_Projects\\WebAPI_Projects\\ECommerce\\API_ECommerce\\utility\\Utility.csproj",
+      "projectUniqueName": "E:\\dotnet projects\\WebApi Projects\\ECommerce\\API_ECommerce\\Utility\\Utility.csproj",
       "projectName": "Utility",
-      "projectPath": "E:\\Mohammed Amaan's\\dotnet_Projects\\WebAPI_Projects\\ECommerce\\API_ECommerce\\utility\\Utility.csproj",
+      "projectPath": "E:\\dotnet projects\\WebApi Projects\\ECommerce\\API_ECommerce\\Utility\\Utility.csproj",
       "packagesPath": "C:\\Users\\Amaan\\.nuget\\packages\\",
-      "outputPath": "E:\\Mohammed Amaan's\\dotnet_Projects\\WebAPI_Projects\\ECommerce\\API_ECommerce\\utility\\obj\\",
+      "outputPath": "E:\\dotnet projects\\WebApi Projects\\ECommerce\\API_ECommerce\\Utility\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Amaan\\AppData\\Roaming\\NuGet\\NuGet.Config",

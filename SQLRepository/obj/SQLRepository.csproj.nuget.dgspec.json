@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Mohammed Amaan's\\dotnet_Projects\\WebAPI_Projects\\ECommerce\\API_ECommerce\\SQLRepository\\SQLRepository.csproj": {}
+    "E:\\dotnet projects\\WebApi Projects\\ECommerce\\API_ECommerce\\SQLRepository\\SQLRepository.csproj": {}
   },
   "projects": {
-    "E:\\Mohammed Amaan's\\dotnet_Projects\\WebAPI_Projects\\ECommerce\\API_ECommerce\\Models\\Models.csproj": {
+    "E:\\dotnet projects\\WebApi Projects\\ECommerce\\API_ECommerce\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Mohammed Amaan's\\dotnet_Projects\\WebAPI_Projects\\ECommerce\\API_ECommerce\\Models\\Models.csproj",
+        "projectUniqueName": "E:\\dotnet projects\\WebApi Projects\\ECommerce\\API_ECommerce\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "E:\\Mohammed Amaan's\\dotnet_Projects\\WebAPI_Projects\\ECommerce\\API_ECommerce\\Models\\Models.csproj",
+        "projectPath": "E:\\dotnet projects\\WebApi Projects\\ECommerce\\API_ECommerce\\Models\\Models.csproj",
         "packagesPath": "C:\\Users\\Amaan\\.nuget\\packages\\",
-        "outputPath": "E:\\Mohammed Amaan's\\dotnet_Projects\\WebAPI_Projects\\ECommerce\\API_ECommerce\\Models\\obj\\",
+        "outputPath": "E:\\dotnet projects\\WebApi Projects\\ECommerce\\API_ECommerce\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Amaan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -69,14 +69,14 @@
         }
       }
     },
-    "E:\\Mohammed Amaan's\\dotnet_Projects\\WebAPI_Projects\\ECommerce\\API_ECommerce\\SQLRepository\\SQLRepository.csproj": {
+    "E:\\dotnet projects\\WebApi Projects\\ECommerce\\API_ECommerce\\SQLRepository\\SQLRepository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Mohammed Amaan's\\dotnet_Projects\\WebAPI_Projects\\ECommerce\\API_ECommerce\\SQLRepository\\SQLRepository.csproj",
+        "projectUniqueName": "E:\\dotnet projects\\WebApi Projects\\ECommerce\\API_ECommerce\\SQLRepository\\SQLRepository.csproj",
         "projectName": "SQLRepository",
-        "projectPath": "E:\\Mohammed Amaan's\\dotnet_Projects\\WebAPI_Projects\\ECommerce\\API_ECommerce\\SQLRepository\\SQLRepository.csproj",
+        "projectPath": "E:\\dotnet projects\\WebApi Projects\\ECommerce\\API_ECommerce\\SQLRepository\\SQLRepository.csproj",
         "packagesPath": "C:\\Users\\Amaan\\.nuget\\packages\\",
-        "outputPath": "E:\\Mohammed Amaan's\\dotnet_Projects\\WebAPI_Projects\\ECommerce\\API_ECommerce\\SQLRepository\\obj\\",
+        "outputPath": "E:\\dotnet projects\\WebApi Projects\\ECommerce\\API_ECommerce\\SQLRepository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Amaan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -93,11 +93,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\Mohammed Amaan's\\dotnet_Projects\\WebAPI_Projects\\ECommerce\\API_ECommerce\\Models\\Models.csproj": {
-                "projectPath": "E:\\Mohammed Amaan's\\dotnet_Projects\\WebAPI_Projects\\ECommerce\\API_ECommerce\\Models\\Models.csproj"
+              "E:\\dotnet projects\\WebApi Projects\\ECommerce\\API_ECommerce\\Models\\Models.csproj": {
+                "projectPath": "E:\\dotnet projects\\WebApi Projects\\ECommerce\\API_ECommerce\\Models\\Models.csproj"
               },
-              "E:\\Mohammed Amaan's\\dotnet_Projects\\WebAPI_Projects\\ECommerce\\API_ECommerce\\Utility\\Utility.csproj": {
-                "projectPath": "E:\\Mohammed Amaan's\\dotnet_Projects\\WebAPI_Projects\\ECommerce\\API_ECommerce\\Utility\\Utility.csproj"
+              "E:\\dotnet projects\\WebApi Projects\\ECommerce\\API_ECommerce\\Utility\\Utility.csproj": {
+                "projectPath": "E:\\dotnet projects\\WebApi Projects\\ECommerce\\API_ECommerce\\Utility\\Utility.csproj"
               }
             }
           }
@@ -112,6 +112,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -141,14 +145,14 @@
         }
       }
     },
-    "E:\\Mohammed Amaan's\\dotnet_Projects\\WebAPI_Projects\\ECommerce\\API_ECommerce\\Utility\\Utility.csproj": {
+    "E:\\dotnet projects\\WebApi Projects\\ECommerce\\API_ECommerce\\Utility\\Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Mohammed Amaan's\\dotnet_Projects\\WebAPI_Projects\\ECommerce\\API_ECommerce\\Utility\\Utility.csproj",
+        "projectUniqueName": "E:\\dotnet projects\\WebApi Projects\\ECommerce\\API_ECommerce\\Utility\\Utility.csproj",
         "projectName": "Utility",
-        "projectPath": "E:\\Mohammed Amaan's\\dotnet_Projects\\WebAPI_Projects\\ECommerce\\API_ECommerce\\Utility\\Utility.csproj",
+        "projectPath": "E:\\dotnet projects\\WebApi Projects\\ECommerce\\API_ECommerce\\Utility\\Utility.csproj",
         "packagesPath": "C:\\Users\\Amaan\\.nuget\\packages\\",
-        "outputPath": "E:\\Mohammed Amaan's\\dotnet_Projects\\WebAPI_Projects\\ECommerce\\API_ECommerce\\Utility\\obj\\",
+        "outputPath": "E:\\dotnet projects\\WebApi Projects\\ECommerce\\API_ECommerce\\Utility\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Amaan\\AppData\\Roaming\\NuGet\\NuGet.Config",
