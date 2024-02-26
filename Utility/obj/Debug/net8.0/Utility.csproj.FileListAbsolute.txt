@@ -1,0 +1,13 @@
+E:\Mohammed Amaan's\dotnet_Projects\WebAPI_Projects\ECommerce\API_ECommerce\Utility\bin\Debug\net8.0\Utility.deps.json
+E:\Mohammed Amaan's\dotnet_Projects\WebAPI_Projects\ECommerce\API_ECommerce\Utility\bin\Debug\net8.0\Utility.dll
+E:\Mohammed Amaan's\dotnet_Projects\WebAPI_Projects\ECommerce\API_ECommerce\Utility\bin\Debug\net8.0\Utility.pdb
+E:\Mohammed Amaan's\dotnet_Projects\WebAPI_Projects\ECommerce\API_ECommerce\Utility\obj\Debug\net8.0\Utility.csproj.AssemblyReference.cache
+E:\Mohammed Amaan's\dotnet_Projects\WebAPI_Projects\ECommerce\API_ECommerce\Utility\obj\Debug\net8.0\Utility.GeneratedMSBuildEditorConfig.editorconfig
+E:\Mohammed Amaan's\dotnet_Projects\WebAPI_Projects\ECommerce\API_ECommerce\Utility\obj\Debug\net8.0\Utility.AssemblyInfoInputs.cache
+E:\Mohammed Amaan's\dotnet_Projects\WebAPI_Projects\ECommerce\API_ECommerce\Utility\obj\Debug\net8.0\Utility.AssemblyInfo.cs
+E:\Mohammed Amaan's\dotnet_Projects\WebAPI_Projects\ECommerce\API_ECommerce\Utility\obj\Debug\net8.0\Utility.csproj.CoreCompileInputs.cache
+E:\Mohammed Amaan's\dotnet_Projects\WebAPI_Projects\ECommerce\API_ECommerce\Utility\obj\Debug\net8.0\Utility.sourcelink.json
+E:\Mohammed Amaan's\dotnet_Projects\WebAPI_Projects\ECommerce\API_ECommerce\Utility\obj\Debug\net8.0\Utility.dll
+E:\Mohammed Amaan's\dotnet_Projects\WebAPI_Projects\ECommerce\API_ECommerce\Utility\obj\Debug\net8.0\refint\Utility.dll
+E:\Mohammed Amaan's\dotnet_Projects\WebAPI_Projects\ECommerce\API_ECommerce\Utility\obj\Debug\net8.0\Utility.pdb
+E:\Mohammed Amaan's\dotnet_Projects\WebAPI_Projects\ECommerce\API_ECommerce\Utility\obj\Debug\net8.0\ref\Utility.dll

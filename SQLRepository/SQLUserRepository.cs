@@ -1,29 +1,28 @@
 ﻿namespace SQLRepository;
 using System.Collections.Generic;
 using System.Data.SqlClient;
-using Microsoft.Extensions.Configuration;
+using MyUtility;
 using Models;
 
 public class SQLUserRepository
 {
-    private readonly string connectionString;
+    private string connectionString = string.Empty;
     public SQLUserRepository()
     {
-        IConfiguration configuration = ConfigurationHelper.GetConfiguration();
-        connectionString = configuration.GetConnectionString("DefaultConnection");
+        connectionString = ConfigurationHelper.Instance.GetConnectionString();
     }
     public List<User> GetUsers()
     {
         List<User> users = new List<User>();
 
-        using (var connection = new SqlConnection(connectionString))
+        using (SqlConnection connection = new SqlConnection(connectionString))
         {
-            connection.Open();
 
             string query = "SELECT * FROM mstUser";
 
             using (var command = new SqlCommand(query, connection))
             {
+                connection.Open();
                 using (var reader = command.ExecuteReader())
                 {
                     while (reader.Read())

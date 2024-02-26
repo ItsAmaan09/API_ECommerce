@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\dotnet projects\\WebApi Projects\\ECommerce\\API_ECommerce\\Models\\Models.csproj": {}
+    "E:\\Mohammed Amaan's\\dotnet_Projects\\WebAPI_Projects\\ECommerce\\API_ECommerce\\Models\\Models.csproj": {}
   },
   "projects": {
-    "E:\\dotnet projects\\WebApi Projects\\ECommerce\\API_ECommerce\\Models\\Models.csproj": {
+    "E:\\Mohammed Amaan's\\dotnet_Projects\\WebAPI_Projects\\ECommerce\\API_ECommerce\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\dotnet projects\\WebApi Projects\\ECommerce\\API_ECommerce\\Models\\Models.csproj",
+        "projectUniqueName": "E:\\Mohammed Amaan's\\dotnet_Projects\\WebAPI_Projects\\ECommerce\\API_ECommerce\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "E:\\dotnet projects\\WebApi Projects\\ECommerce\\API_ECommerce\\Models\\Models.csproj",
+        "projectPath": "E:\\Mohammed Amaan's\\dotnet_Projects\\WebAPI_Projects\\ECommerce\\API_ECommerce\\Models\\Models.csproj",
         "packagesPath": "C:\\Users\\Amaan\\.nuget\\packages\\",
-        "outputPath": "E:\\dotnet projects\\WebApi Projects\\ECommerce\\API_ECommerce\\Models\\obj\\",
+        "outputPath": "E:\\Mohammed Amaan's\\dotnet_Projects\\WebAPI_Projects\\ECommerce\\API_ECommerce\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Amaan\\AppData\\Roaming\\NuGet\\NuGet.Config",

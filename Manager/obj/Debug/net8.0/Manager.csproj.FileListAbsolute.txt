@@ -16,3 +16,23 @@ E:\dotnet projects\WebApi Projects\ECommerce\API_ECommerce\Manager\obj\Debug\net
 E:\dotnet projects\WebApi Projects\ECommerce\API_ECommerce\Manager\obj\Debug\net8.0\refint\Manager.dll
 E:\dotnet projects\WebApi Projects\ECommerce\API_ECommerce\Manager\obj\Debug\net8.0\Manager.pdb
 E:\dotnet projects\WebApi Projects\ECommerce\API_ECommerce\Manager\obj\Debug\net8.0\ref\Manager.dll
+E:\Mohammed Amaan's\dotnet_Projects\WebAPI_Projects\ECommerce\API_ECommerce\Manager\bin\Debug\net8.0\Manager.deps.json
+E:\Mohammed Amaan's\dotnet_Projects\WebAPI_Projects\ECommerce\API_ECommerce\Manager\bin\Debug\net8.0\Manager.dll
+E:\Mohammed Amaan's\dotnet_Projects\WebAPI_Projects\ECommerce\API_ECommerce\Manager\bin\Debug\net8.0\Manager.pdb
+E:\Mohammed Amaan's\dotnet_Projects\WebAPI_Projects\ECommerce\API_ECommerce\Manager\bin\Debug\net8.0\Models.dll
+E:\Mohammed Amaan's\dotnet_Projects\WebAPI_Projects\ECommerce\API_ECommerce\Manager\bin\Debug\net8.0\SQLRepository.dll
+E:\Mohammed Amaan's\dotnet_Projects\WebAPI_Projects\ECommerce\API_ECommerce\Manager\bin\Debug\net8.0\Models.pdb
+E:\Mohammed Amaan's\dotnet_Projects\WebAPI_Projects\ECommerce\API_ECommerce\Manager\bin\Debug\net8.0\SQLRepository.pdb
+E:\Mohammed Amaan's\dotnet_Projects\WebAPI_Projects\ECommerce\API_ECommerce\Manager\obj\Debug\net8.0\Manager.csproj.AssemblyReference.cache
+E:\Mohammed Amaan's\dotnet_Projects\WebAPI_Projects\ECommerce\API_ECommerce\Manager\obj\Debug\net8.0\Manager.GeneratedMSBuildEditorConfig.editorconfig
+E:\Mohammed Amaan's\dotnet_Projects\WebAPI_Projects\ECommerce\API_ECommerce\Manager\obj\Debug\net8.0\Manager.AssemblyInfoInputs.cache
+E:\Mohammed Amaan's\dotnet_Projects\WebAPI_Projects\ECommerce\API_ECommerce\Manager\obj\Debug\net8.0\Manager.AssemblyInfo.cs
+E:\Mohammed Amaan's\dotnet_Projects\WebAPI_Projects\ECommerce\API_ECommerce\Manager\obj\Debug\net8.0\Manager.csproj.CoreCompileInputs.cache
+E:\Mohammed Amaan's\dotnet_Projects\WebAPI_Projects\ECommerce\API_ECommerce\Manager\obj\Debug\net8.0\Manager.sourcelink.json
+E:\Mohammed Amaan's\dotnet_Projects\WebAPI_Projects\ECommerce\API_ECommerce\Manager\obj\Debug\net8.0\Manager.csproj.CopyComplete
+E:\Mohammed Amaan's\dotnet_Projects\WebAPI_Projects\ECommerce\API_ECommerce\Manager\obj\Debug\net8.0\Manager.dll
+E:\Mohammed Amaan's\dotnet_Projects\WebAPI_Projects\ECommerce\API_ECommerce\Manager\obj\Debug\net8.0\refint\Manager.dll
+E:\Mohammed Amaan's\dotnet_Projects\WebAPI_Projects\ECommerce\API_ECommerce\Manager\obj\Debug\net8.0\Manager.pdb
+E:\Mohammed Amaan's\dotnet_Projects\WebAPI_Projects\ECommerce\API_ECommerce\Manager\obj\Debug\net8.0\ref\Manager.dll
+E:\Mohammed Amaan's\dotnet_Projects\WebAPI_Projects\ECommerce\API_ECommerce\Manager\bin\Debug\net8.0\Utility.dll
+E:\Mohammed Amaan's\dotnet_Projects\WebAPI_Projects\ECommerce\API_ECommerce\Manager\bin\Debug\net8.0\Utility.pdb
