@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "CW+ZAnZmkeGrhW9Ypow1nOX1aZqhbY8jo9P60uMSTBLDRkDkVTWpNC4CPnj+PWIcThDaAAln5MkoK5TSOF/vhg==",
+  "dgSpecHash": "SDdKxCcE+rM4mTLFyq6wPNStrhpGcwUdB4AIrayzjVdWhypTGUfcYKyl2LGSUOXZZDvTgIWLs4qZFnD233rm/g==",
   "success": true,
-  "projectFilePath": "E:\\Mohammed Amaan's\\dotnet_Projects\\WebAPI_Projects\\ECommerce\\API_ECommerce\\api\\API.csproj",
+  "projectFilePath": "E:\\dotnet projects\\WebApi Projects\\ECommerce\\API_ECommerce\\api\\API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Amaan\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\Amaan\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\Amaan\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "C:\\Users\\Amaan\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",

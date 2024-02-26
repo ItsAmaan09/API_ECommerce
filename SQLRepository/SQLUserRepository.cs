@@ -56,7 +56,7 @@ public class SQLUserRepository
             {
                 command.Parameters.AddWithValue("@Username", user.Username);
                 command.Parameters.AddWithValue("@Email", user.Email);
-                command.Parameters.AddWithValue("@Password", hashedPassword);
+                command.Parameters.AddWithValue("@PasswordHash", hashedPassword);
 
                 int rowsAffected = command.ExecuteNonQuery();
                 success = rowsAffected > 0;

@@ -31,7 +31,7 @@ public class UserManager
     public bool AddUser(User user)
     {
         bool success = false;
-        if(user.IsValid())
+        if(!user.IsValid())
         {
             throw new Exception("User is not valid");
         }

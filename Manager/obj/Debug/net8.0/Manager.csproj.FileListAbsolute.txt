@@ -36,3 +36,5 @@ E:\Mohammed Amaan's\dotnet_Projects\WebAPI_Projects\ECommerce\API_ECommerce\Mana
 E:\Mohammed Amaan's\dotnet_Projects\WebAPI_Projects\ECommerce\API_ECommerce\Manager\obj\Debug\net8.0\ref\Manager.dll
 E:\Mohammed Amaan's\dotnet_Projects\WebAPI_Projects\ECommerce\API_ECommerce\Manager\bin\Debug\net8.0\Utility.dll
 E:\Mohammed Amaan's\dotnet_Projects\WebAPI_Projects\ECommerce\API_ECommerce\Manager\bin\Debug\net8.0\Utility.pdb
+E:\dotnet projects\WebApi Projects\ECommerce\API_ECommerce\Manager\bin\Debug\net8.0\Utility.dll
+E:\dotnet projects\WebApi Projects\ECommerce\API_ECommerce\Manager\bin\Debug\net8.0\Utility.pdb

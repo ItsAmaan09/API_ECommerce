@@ -90,3 +90,6 @@ E:\Mohammed Amaan's\dotnet_Projects\WebAPI_Projects\ECommerce\API_ECommerce\api\
 E:\Mohammed Amaan's\dotnet_Projects\WebAPI_Projects\ECommerce\API_ECommerce\api\obj\Debug\net8.0\ref\API.dll
 E:\Mohammed Amaan's\dotnet_Projects\WebAPI_Projects\ECommerce\API_ECommerce\api\bin\Debug\net8.0\Utility.dll
 E:\Mohammed Amaan's\dotnet_Projects\WebAPI_Projects\ECommerce\API_ECommerce\api\bin\Debug\net8.0\Utility.pdb
+E:\dotnet projects\WebApi Projects\ECommerce\API_ECommerce\api\bin\Debug\net8.0\BCrypt.Net-Next.dll
+E:\dotnet projects\WebApi Projects\ECommerce\API_ECommerce\api\bin\Debug\net8.0\Utility.dll
+E:\dotnet projects\WebApi Projects\ECommerce\API_ECommerce\api\bin\Debug\net8.0\Utility.pdb
