@@ -12,9 +12,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Manager\Manager.csproj" />
     <ProjectReference Include="..\Utility\Utility.csproj" />
     <ProjectReference Include="..\Models\Models.csproj" />
+    <ProjectReference Include="..\Manager\Manager.csproj" />
   </ItemGroup>
 
 </Project>
