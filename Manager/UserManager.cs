@@ -60,9 +60,10 @@ public class UserManager
 	private bool IsDuplicateUser(User user)
 	{
 		IEnumerable<User> users = this.GetUsers().Where(x => x.Username.Equals(user.Username));
+		int count = users.Where(x => x.Id == user.Id).Count();
 
-		int count = users.Where(x => x.Id != user.Id).Count();
-		return count > 0;
+		bool result = users.Any(x => x.Id == user.Id);
+		return result;
 	}
 	private bool IsDuplicateEmail(User user)
 	{
