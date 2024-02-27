@@ -22,8 +22,8 @@
             },
             "sourceFileMap": {
                 "/Views": "${workspaceFolder}/Views"
-            }
+            },
+            "requireExactSource": false
         }
-
-    ]
+    ],
 }

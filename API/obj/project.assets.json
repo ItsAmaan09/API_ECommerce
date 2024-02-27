@@ -1563,11 +1563,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\dotnet projects\\WebApi Projects\\ECommerce\\API_ECommerce\\api\\API.csproj",
+      "projectUniqueName": "E:\\Mohammed Amaan's\\dotnet_Projects\\WebAPI_Projects\\ECommerce\\API_ECommerce\\api\\API.csproj",
       "projectName": "API",
-      "projectPath": "E:\\dotnet projects\\WebApi Projects\\ECommerce\\API_ECommerce\\api\\API.csproj",
+      "projectPath": "E:\\Mohammed Amaan's\\dotnet_Projects\\WebAPI_Projects\\ECommerce\\API_ECommerce\\api\\API.csproj",
       "packagesPath": "C:\\Users\\Amaan\\.nuget\\packages\\",
-      "outputPath": "E:\\dotnet projects\\WebApi Projects\\ECommerce\\API_ECommerce\\api\\obj\\",
+      "outputPath": "E:\\Mohammed Amaan's\\dotnet_Projects\\WebAPI_Projects\\ECommerce\\API_ECommerce\\api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Amaan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1584,14 +1584,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "E:\\dotnet projects\\WebApi Projects\\ECommerce\\API_ECommerce\\Manager\\Manager.csproj": {
-              "projectPath": "E:\\dotnet projects\\WebApi Projects\\ECommerce\\API_ECommerce\\Manager\\Manager.csproj"
+            "E:\\Mohammed Amaan's\\dotnet_Projects\\WebAPI_Projects\\ECommerce\\API_ECommerce\\Manager\\Manager.csproj": {
+              "projectPath": "E:\\Mohammed Amaan's\\dotnet_Projects\\WebAPI_Projects\\ECommerce\\API_ECommerce\\Manager\\Manager.csproj"
             },
-            "E:\\dotnet projects\\WebApi Projects\\ECommerce\\API_ECommerce\\Models\\Models.csproj": {
-              "projectPath": "E:\\dotnet projects\\WebApi Projects\\ECommerce\\API_ECommerce\\Models\\Models.csproj"
+            "E:\\Mohammed Amaan's\\dotnet_Projects\\WebAPI_Projects\\ECommerce\\API_ECommerce\\Models\\Models.csproj": {
+              "projectPath": "E:\\Mohammed Amaan's\\dotnet_Projects\\WebAPI_Projects\\ECommerce\\API_ECommerce\\Models\\Models.csproj"
             },
-            "E:\\dotnet projects\\WebApi Projects\\ECommerce\\API_ECommerce\\Utility\\Utility.csproj": {
-              "projectPath": "E:\\dotnet projects\\WebApi Projects\\ECommerce\\API_ECommerce\\Utility\\Utility.csproj"
+            "E:\\Mohammed Amaan's\\dotnet_Projects\\WebAPI_Projects\\ECommerce\\API_ECommerce\\Utility\\Utility.csproj": {
+              "projectPath": "E:\\Mohammed Amaan's\\dotnet_Projects\\WebAPI_Projects\\ECommerce\\API_ECommerce\\Utility\\Utility.csproj"
             }
           }
         }

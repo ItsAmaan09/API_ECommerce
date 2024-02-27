@@ -6,38 +6,69 @@ namespace Manager;
 
 public class UserManager
 {
-    private SQLUserRepository sqlUserRepository = null;
+	private SQLUserRepository sqlUserRepository = null;
 
-    public UserManager()
-    {
-        this.sqlUserRepository = new SQLUserRepository();
-    }
-    public IList<User> GetUsers()
-    {
-        IList<User> users = new List<User>();
+	public UserManager()
+	{
+		this.sqlUserRepository = new SQLUserRepository();
+	}
+	public IList<User> GetUsers()
+	{
+		IList<User> users = new List<User>();
 
-        try
-        {
-            users = this.sqlUserRepository.GetUsers();
-        }
-        catch (System.Exception ex)
-        {
-            throw;
-        }
+		try
+		{
+			users = this.sqlUserRepository.GetUsers();
+		}
+		catch (System.Exception ex)
+		{
+			throw;
+		}
 
-        return users;
-    }
+		return users;
+	}
 
-    public bool AddUser(User user)
-    {
-        bool success = false;
-        if(!user.IsValid())
-        {
-            throw new Exception("User is not valid");
-        }
+	public bool AddUser(User user)
+	{
+		bool success = false;
+		try
+		{
+			if (!user.IsValid())
+			{
+				throw new Exception("User is not valid");
+			}
+			if (this.IsDuplicateUser(user))
+			{
+				throw new Exception("User same username already exists");
+			}
+			if(this.IsDuplicateEmail(user))
+			{
+				throw new Exception("User email is already exists");
+			}
 
-        success = this.sqlUserRepository.AddUser(user);
+			success = this.sqlUserRepository.AddUser(user);
 
-        return success;
-    }
+		}
+		catch (Exception ex)
+		{
+			throw;
+		}
+
+		return success;
+	}
+
+	private bool IsDuplicateUser(User user)
+	{
+		IEnumerable<User> users = this.GetUsers().Where(x => x.Username.Equals(user.Username));
+
+		int count = users.Where(x => x.Id != user.Id).Count();
+		return count > 0;
+	}
+	private bool IsDuplicateEmail(User user)
+	{
+		IEnumerable<User> users = this.GetUsers().Where(x => x.Email.Equals(user.Email));
+
+		int count = users.Where(x => x.Id != user.Id).Count();
+		return count > 0;
+	}
 }
