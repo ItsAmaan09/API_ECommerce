@@ -43,7 +43,6 @@ public class SQLUserRepository
 	}
 	public bool AddUser(User user)
 	{
-		bool success = false;
 		try
 		{
 			string hashedPassword = HashPassword(user.PasswordHash);
@@ -61,7 +60,6 @@ public class SQLUserRepository
 					command.Parameters.AddWithValue("@PasswordHash", hashedPassword);
 
 					int rowsAffected = command.ExecuteNonQuery();
-					success = rowsAffected > 0;
 				}
 			}
 		}
@@ -70,7 +68,7 @@ public class SQLUserRepository
 			throw;
 		}
 
-		return success;
+		return true;
 	}
 
 	private string HashPassword(string password)
