@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qXR/KkQ1DNuUd/qfVQFe3Upc197RsNglfat8I7xWokElGvPEscexn3MGMAD3UNElXJy2vqreDXIVdr/tEsn41A==",
+  "dgSpecHash": "/2F7eot0ATFtJ0UFczxTp6GfLvJKHD4BBxwtq5KxIZYf9kBAjfZbN2DDZZemRoPdwx2EH8MTVLFCnGzRzHdAOQ==",
   "success": true,
-  "projectFilePath": "E:\\dotnet projects\\WebApi Projects\\ECommerce\\API_ECommerce\\Manager\\Manager.csproj",
+  "projectFilePath": "E:\\Mohammed Amaan's\\dotnet_Projects\\WebAPI_Projects\\ECommerce\\API_ECommerce\\Manager\\Manager.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Amaan\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\Amaan\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",

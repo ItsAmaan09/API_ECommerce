@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6TF993NhcdmYB6zSks3omZGOY+S2ePlUYuCHvH0XGvlCrptSAhJ8cCGt4w/r38fAu5nfEBJc1HxBvDW3yd8jCg==",
+  "dgSpecHash": "dtdibcFkj/9NCAqXfM5H8Mb6ofqRK2YoDfkCLpOmBoDhtO0SRihqUbuHRG68m/rNMRsc/tbn9NcxjmTIDVjF3A==",
   "success": true,
-  "projectFilePath": "E:\\dotnet projects\\WebApi Projects\\ECommerce\\API_ECommerce\\SQLRepository\\SQLRepository.csproj",
+  "projectFilePath": "E:\\Mohammed Amaan's\\dotnet_Projects\\WebAPI_Projects\\ECommerce\\API_ECommerce\\SQLRepository\\SQLRepository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Amaan\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\Amaan\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
