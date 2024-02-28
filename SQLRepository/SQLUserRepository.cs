@@ -76,4 +76,9 @@ public class SQLUserRepository
 		// Generate a salt and hash the password using bcrypt
 		return BCrypt.Net.BCrypt.HashPassword(password, BCrypt.Net.BCrypt.GenerateSalt());
 	}
+
+	public bool VerifyPassword(string hashedPassword, string providedPassword)
+    {
+        return BCrypt.Net.BCrypt.Verify(providedPassword, hashedPassword);
+    }
 }

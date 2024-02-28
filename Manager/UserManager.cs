@@ -72,4 +72,19 @@ public class UserManager
 		int count = users.Where(x => x.Id != user.Id).Count();
 		return count > 0;
 	}
+
+	public IList<User> IsUserNameExists(string username)
+	{
+		IEnumerable<User> user = this.GetUsers().Where(x=>x.Username.Equals(username));
+
+
+		return user.ToList();
+	}
+
+	public bool IsPasswordMatch(string hashedPassword, string providedPassword)
+	{
+		bool result;
+ 		result = this.sqlUserRepository.VerifyPassword(hashedPassword, providedPassword);
+		return result;
+	}
 }
