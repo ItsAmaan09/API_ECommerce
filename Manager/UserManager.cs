@@ -73,18 +73,17 @@ public class UserManager
 		return count > 0;
 	}
 
-	public IList<User> IsUserNameExists(string username)
+	public User IsUserNameExists(string username)
 	{
-		IEnumerable<User> user = this.GetUsers().Where(x=>x.Username.Equals(username));
-
-
-		return user.ToList();
+		User user = new User();
+		user = this.GetUsers().Where(x=>x.Username.Equals(username)).FirstOrDefault();
+		return user;
 	}
 
-	public bool IsPasswordMatch(string hashedPassword, string providedPassword)
+	public bool IsPasswordMatch( string providedPassword,string hashedPassword)
 	{
 		bool result;
- 		result = this.sqlUserRepository.VerifyPassword(hashedPassword, providedPassword);
+ 		result = this.sqlUserRepository.VerifyPassword(providedPassword, hashedPassword);
 		return result;
 	}
 }

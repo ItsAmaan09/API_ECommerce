@@ -17,7 +17,7 @@ namespace API.Controllers
 			{
 				UserManager userManager = new UserManager();
 				var authInfo = userManager.IsUserNameExists(authenticationRequest.userName);
-				if (authInfo == null || userManager.VerifyPassword(authInfo.Password, authenticationRequest.password))
+				if (authInfo == null || !userManager.IsPasswordMatch(authInfo.PasswordHash, authenticationRequest.password))
 				{
 					return Unauthorized(new { message = "Invalid credentials" });
 				}
